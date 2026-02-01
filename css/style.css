@@ -33,6 +33,9 @@ video {
 	right: 0;
 	display: flex;
 	color: white;
+	padding: 1rem 1.5em;
+	
+	
 }
 
 /* Footer */
@@ -46,7 +49,8 @@ footer {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	background-color: transparent;
+	background-color: black;
+	
 
 
 }
@@ -59,12 +63,30 @@ footer {
 	top: 40%;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	width: 0.25px;
-	
-	
+	justify-content: space space-between;
+	width: 3rem;
+	align-items: center;
+	margin-bottom: 5rem;
 
 }
+
+.items{
+	text-align: center;
+
+}
+
+.item{
+	margin: 1rem;
+}
+
+img{
+	max-width: 100%;
+	margin: 1 0rem;
+
+}
+
+
+	
 
 /* ---------------------
 Regole per evidenziare i blocchi 
@@ -88,7 +110,10 @@ da rimuovere una volta concluso
 
 /* --------------------- */
 
-img{
-	width: 100%;
-
+button{
+	background: none;
+	background-color: transparent;
+	color: white;
+	border-style: none;
+	font-size: medium;
 }
