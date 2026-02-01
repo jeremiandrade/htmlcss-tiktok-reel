@@ -33,14 +33,22 @@ video {
 	right: 0;
 	display: flex;
 	color: white;
-	padding: 1rem 1.5em;
-	
+	align-items: 0 1rem;
+
+}
+
+.search{
+	position: relative;
+}
+
+.feed{
+	margin: 30px;
 	
 }
 
-/* Footer */
+/* navigation */
 
-footer {
+.navigation{
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -50,10 +58,12 @@ footer {
 	align-items: center;
 	justify-content: space-between;
 	background-color: black;
-	
-
+	padding: 0 1rem;
 
 }
+
+
+
 
 /* Sidebar */
 .sidebar {
@@ -67,21 +77,27 @@ footer {
 	width: 3rem;
 	align-items: center;
 	margin-bottom: 5rem;
+	
 
 }
 
 .items{
+	position: relative;
+	top: 0;
 	text-align: center;
-
+	margin-top: 1rem;
 }
 
 .item{
+
 	margin: 1rem;
 }
 
 img{
-	max-width: 100%;
+	max-width: 70%;
 	margin: 1 0rem;
+	border-radius: 2rem;
+	border: 1px solid transparent
 
 }
 
@@ -92,7 +108,7 @@ img{
 Regole per evidenziare i blocchi 
 da rimuovere una volta concluso
 --------------------- */
-.debug footer {
+.debug .navigation {
 	min-height: 100px;
 	border: 2px dashed #fff;
 }
